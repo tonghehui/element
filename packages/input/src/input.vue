@@ -370,7 +370,7 @@
         this.$nextTick(this.setNativeInputValue);
       },
       handleChange(event) {
-        this.$emit('change', event.target.value);
+        this.$emit('change', 111);
       },
       calcIconOffset(place) {
         let elList = [].slice.call(this.$el.querySelectorAll(`.el-input__${place}`) || []);
